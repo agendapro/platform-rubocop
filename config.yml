@@ -1,0 +1,36 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+    - IgnoredMethods
+
+plugins: 
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "db/**/*"
+    - "config/**/*"
+    - "script/**/*"
+
+# Layout
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: empty_lines_except_namespace
+
+# Metrics
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/MethodLength:
+  Max: 15
+
+# Rails
+Rails/UnknownEnv:
+  Environments:
+    - production
+    - development
+    - test
+    - staging
+    - qa
