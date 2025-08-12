@@ -1,0 +1,3 @@
+---
+inherit_gem:
+  platform-rubocop: config.yml
