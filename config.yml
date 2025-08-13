@@ -28,7 +28,7 @@ Metrics/MethodLength:
   CountAsOne: [hash, array, method_call, heredoc]
 
 RSpec/ExampleLength:
-  Max: 15
+  Max: 10
   CountAsOne: [hash, array, method_call, heredoc]
 
 # Rails
