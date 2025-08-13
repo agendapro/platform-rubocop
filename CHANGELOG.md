@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning][2].
 - Enable `NewCops` within `AllCops`.
 - Exclude `db`, `config`, and `script` directories for `AllCops`.
 
-## [0.1.1] - 2025-08-13
+## [0.2.0] - 2025-08-13
 ### Added
 - Configuration `Max` for `RSpec/ExampleLength` relaxed to `15`.
 - Configuration `CountAsOne` for `RSpec/ExampleLength` and `Metrics/MethodLength`
