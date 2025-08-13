@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = 'platform-rubocop'
-  spec.version     = '0.1.0'
+  spec.version     = '0.1.1'
   spec.authors     = ['Rodrigo Vilina']
   spec.email       = ['rodrigovilina@agendapro.com']
 

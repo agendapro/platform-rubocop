@@ -25,6 +25,11 @@ Metrics/AbcSize:
 
 Metrics/MethodLength:
   Max: 15
+  CountAsOne: [hash, array, method_call]
+
+RSpec/ExampleLength:
+  Max: 15
+  CountAsOne: [hash, array, method_call]
 
 # Rails
 Rails/UnknownEnv:
