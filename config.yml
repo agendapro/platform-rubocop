@@ -31,6 +31,9 @@ RSpec/ExampleLength:
   Max: 10
   CountAsOne: [hash, array, method_call, heredoc]
 
+RSpec/ModuleLength:
+  CountAsOne: [hash, array, method_call, heredoc]
+
 # Rails
 Rails/UnknownEnv:
   Environments:
